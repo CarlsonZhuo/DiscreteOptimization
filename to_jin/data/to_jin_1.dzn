@@ -1,0 +1,31 @@
+nrow = 6;
+ncol = 6;
+
+start_row = 1;
+start_col = 1;
+
+delay = [ 1, 9, 3, 1, 2 ];
+timelimit = 50;
+
+terrain = [| P, P, P, R, C, F
+           | P, M, M, F, M, C
+           | P, M, P, F, F, P
+           | P, M, P, M, M, C
+           | P, M, P, M, P, F
+           | P, P, P, M, P, F |];
+
+Jin = [| false, false, false, false, false, false
+       | false, false, false, false, false, false
+       | false, false, false, false, false, false
+       | false, false, false, false, false, false
+       | false, false, false, true, false, false
+       | false, false, false, true, true, true |];
+
+soldier = [| 0,0,0,0,0,0
+           | 0,0,0,5,0,0
+           | 0,0,0,0,1,0
+           | 0,0,0,0,0,1
+           | 0,0,0,0,0,0
+           | 0,0,0,0,0,0 |];
+
+maxstep = 20;
