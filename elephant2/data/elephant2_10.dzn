@@ -1,0 +1,14 @@
+%This is a relativelly hard instance, for you to test
+
+T = 12;
+
+E = 100;
+
+G = 4;
+
+easy = [5,4,2,3];
+hard = [6,7,8,6];
+tired = [1,2,3,5];
+p = 3;
+b = 4;
+
