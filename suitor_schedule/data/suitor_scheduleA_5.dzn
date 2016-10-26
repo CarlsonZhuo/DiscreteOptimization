@@ -1,0 +1,24 @@
+stage = A;
+SUITOR = { S1 };
+LiuBei = S1;
+n = 5 + 5 ;
+suitor = [ S1, S1, S1, S1, S1, S1, S1, S1, S1, S1 ];
+
+mintime = [|  4, 5, 4 |];
+ 
+maxtime = [|  7, 8, 6 |];
+
+move = [|  0, 0, 0
+        |  0, 0, 0
+        |  0, 0, 0 |];
+ 
+ndays = 5;
+earliest = 8;
+latest = 18;
+
+lessontime = 2;
+minsep = 4;
+
+usedstart = [ 10, 12, 14 ];
+useddur   = [ 1, 2, 1 ];
+

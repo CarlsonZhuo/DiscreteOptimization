@@ -1,0 +1,33 @@
+stage = B;
+SUITOR = { S1, S2, S3, S4 };
+LiuBei = S1;
+n = 4 + 3 + 3 + 2;
+suitor = [ S1, S1, S1, S1, S2, S2, S2, S3, S3, S3, S4, S4 ];
+
+mintime = [|  1, 2, 3
+           |  2, 2, 1
+           |  3, 3, 3
+           |  4, 1, 2 |];
+ 
+maxtime = [| 2, 3, 4
+           | 2, 4, 3
+           | 3, 4, 3
+           | 4, 1, 3 |];
+
+move = [|  0, 1, 1
+        |  1, 0, 2
+        |  1, 2, 0 |];
+%move = [|  0, 0, 0
+%        |  0, 0, 0
+%        |  0, 0, 0 |];
+ 
+ndays = 5;
+earliest = 8;
+latest = 18;
+
+lessontime = 1;
+minsep = 2;
+
+usedstart = [ 10, 12, 14 ];
+useddur   = [ 1, 2, 1 ];
+
