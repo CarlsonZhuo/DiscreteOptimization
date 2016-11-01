@@ -1,0 +1,19 @@
+length = 16;
+width = 10;
+
+mist =   array1d(LENGTH,[ 0 | l in LENGTH ]);
+arrow  = array1d(WIDTH, [0 | w in WIDTH ]); 
+price = [ 0 | p in 1..ntypes];
+budget = 40;
+stage = A;
+
+ntypes = 1;
+number = [45];
+config = [{1}];
+
+nshapes = 1;
+shape = [{1}];
+
+nroff = 1;
+rectoff = [| 0,0,1,3
+          |]; 
